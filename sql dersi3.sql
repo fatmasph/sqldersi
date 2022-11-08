@@ -160,3 +160,12 @@ INSERT INTO insanlar VALUES(234567890, 'Veli Cem', 'Ankara');
 INSERT INTO insanlar VALUES(345678901, 'Mine Bulut', 'Izmir');
 INSERT INTO insanlar (ssn, adres) VALUES(456789012, 'Bursa');
 INSERT INTO insanlar (ssn, adres) VALUES(567890123, 'Denizli');
+
+select * from insanlar where isim is null
+
+select * from insanlar where isim is not null
+
+update insanlar
+
+set isim='name'
+delete from insanlar
